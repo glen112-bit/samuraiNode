@@ -1,7 +1,7 @@
-  let customers = [
-    {id:01, name:"numero 1", site: "http://numero1.com"},
-    {id:02, name:"numero 2", site: "http://numero2.com"},
-    {id:03, name:"numero 3", site: "http://numero3.com"}
+  const customers = [
+    {id: 1, name:"numero 1", site: "http://numero1.com"},
+    {id: 2, name:"numero 2", site: "http://numero2.com"},
+    {id: 3, name:"numero 3", site: "http://numero3.com"}
   ];
 
 class CustomersController{
@@ -59,4 +59,4 @@ class CustomersController{
     };
   };
 
-module.exports = new CustomersController()
+export default new CustomersController();
